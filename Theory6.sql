@@ -49,3 +49,13 @@ SELECT e_name, e_phone from employee where j_date BETWEEN "2021-01-01" AND "2024
 
 SELECT e_phone from employee where NOT e_adrs = "Khulna";
 
+SELECT distinct e_adrs from employee;
+
+SELECT distinct o_adrs from owner;
+
+SELECT e_name from owner, employee where owner.o_id = employee.e_id;
+
+SELECT o_name from owner as O, employee as E where O.o_id = E.e_id;
+
+SELECT O.o_id, o_name from owner as O, employee as E where O.o_id = E.o_id;
+
