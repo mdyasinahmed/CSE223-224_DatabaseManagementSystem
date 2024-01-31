@@ -45,5 +45,5 @@ SELECT * from owner, employee;
 
 SELECT e_name from employee where e_id=1 AND e_adrs="Sylhet";
 
-
+SELECT e_name, e_phone from employee where j_date BETWEEN "2021-01-01" AND "2024-01-01";
 
