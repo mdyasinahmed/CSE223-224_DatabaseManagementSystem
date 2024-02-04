@@ -35,7 +35,7 @@ VALUES
 (4, 2, "Mehedi Miraz", "01234556789", "miraz@gmakl.com", "Barisal", "2020-03-10"),
 (3, 3, "Tarek Ahmed", "017454563336", "tarek@gmail.com", "Dhaka", "2021-04-10"),
 (2, 4, "Takbir Ali", "0174523657247", "takbir@gmail.com", "Comilla", "2022-04-12"),
-(1,5, "Amran Malik", "0184353626457", "amran@gmail.com", "Khulna", "2019-05-09");
+(1, 5, "Amran Malik", "0184353626457", "amran@gmail.com", "Khulna", "2019-05-09");
 
 SELECT * from owner;
 
