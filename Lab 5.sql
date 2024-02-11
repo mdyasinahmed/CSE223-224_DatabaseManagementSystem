@@ -65,6 +65,11 @@ SELECT eName, Street, City from employee, works where employee.eID=works.eID AND
 
 SELECT eName from employee, works where employee.eID=works.eID AND  companyName != "First Bank Corporation";
 
+SELECT eName from employee, works, company where employee.eID=works.eID AND works.CompanyName=company.CompanyName AND  employee.City = company.City;
+
+SELECT eName from employee, manager where employee.eName=manager.eName AND  employee.City = company.City;
+
+SELECT UPPER( mName) as mName from manager where mName IS NULL AND (mName like '%a' OR mName like '%r');
 
 
 
