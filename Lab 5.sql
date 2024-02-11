@@ -57,7 +57,9 @@ VALUES
 (3, "Kobir","Ahmed"),
 (4, "Kobir","Mahmud");
 
+SELECT eName from employee, works where employee.eID=works.eID AND CompanyName = "First Bank Corporation";
 
+SELECT eName, City from employee, works where employee.eID=works.eID AND  companyName = "First Bank Corporation";
 
 
 
