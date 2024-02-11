@@ -61,6 +61,10 @@ SELECT eName from employee, works where employee.eID=works.eID AND CompanyName =
 
 SELECT eName, City from employee, works where employee.eID=works.eID AND  companyName = "First Bank Corporation";
 
+SELECT eName, Street, City from employee, works where employee.eID=works.eID AND  companyName = "Last Bank Corporation"AND salary > 10000;
+
+SELECT eName from employee, works where employee.eID=works.eID AND  companyName != "First Bank Corporation";
+
 
 
 
