@@ -76,3 +76,11 @@ SELECT eName, salary from employee, works where employee.eID=works.eID ORDER By 
 
 
 SELECT eName from employee, company, manager where employee.eName=manager.eName AND  employee.City = company.City;
+
+select * from employee, works where employee.eID=works.eID and salary = (select max(salary) from works) and salary > (select avg(salary) from works);
+
+
+-- select * from employee, works where employee.e_id=works.e_id group by  salary having sum(salary) < 50000;
+
+select * from employee, works where employee.e_id=works.e_id and salary = (select max(salary) from works);
+
