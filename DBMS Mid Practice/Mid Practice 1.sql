@@ -1,0 +1,1 @@
+CREATE DATABASE Mid_Practice_1;
