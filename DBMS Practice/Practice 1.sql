@@ -28,5 +28,3 @@ UPDATE CSE_57 SET phone = "01743583748" where id = 110;
 SELECT * from CSE_57;
 
 SHOW tables;
-
-drop table CSE_57;
