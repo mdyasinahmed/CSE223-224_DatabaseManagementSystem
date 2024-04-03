@@ -1,4 +1,4 @@
-CREATE database Company;
+CREATE database C;
 
 USE Company;
 
@@ -7,3 +7,5 @@ CREATE table instructor(
     ins_name
 
 );
+
+drop Company;
